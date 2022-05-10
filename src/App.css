@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
+.journal-logo{
+  position: absolute;
+  width: 550px;
+  height: 55px;
+  left: 0px;
+  top: 0px;
+  background: #F55A5A;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.logo-text{
+  position: absolute;
+  width: 109px;
+  height: 16px;
+  left: 244px;
+  top: 20px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  color: #FFFFFF;
 }
