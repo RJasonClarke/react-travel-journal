@@ -6,7 +6,7 @@ export default function Card(props){
 
     return(
         <div className="card">
-            <img className="card-img" src={props.item.imageUrl}/>
+            <img className="card-img" src={props.item.imageUrl} alt={props.item.title}/>
             <h4 className="card-location">{props.item.location}</h4>
             <a className="card-link" href={props.item.googleMapsUrl}></a>
             <h1 className="card-title">{props.item.title}</h1>
