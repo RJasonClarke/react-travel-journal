@@ -1,25 +1,28 @@
 .journal-logo{
-  position: absolute;
-  width: 550px;
+  align-items: center;
+  background-color: #f55a5a;
+  background-color: var(--header_bg);
+  display: flex;
   height: 55px;
-  left: 0px;
-  top: 0px;
-  background: #F55A5A;
+  justify-content: center;
 }
 
-.logo-text{
-  position: absolute;
-  width: 109px;
-  height: 16px;
-  left: 244px;
-  top: 20px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14.4608px;
-  line-height: 18px;
-  letter-spacing: -0.075em;
+:root {
+  --header_bg: #f55a5a;
+  --text_color: #2b283a;
+  --link_color: #918e9b;
+  --border-color: #f5f5f5;
+}
 
-  color: #FFFFFF;
+.logo-text {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 5px;
 }
