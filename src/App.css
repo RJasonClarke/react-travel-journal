@@ -1,4 +1,4 @@
-.journal-logo{
+.journal-logo {
   align-items: center;
   background-color: #f55a5a;
   background-color: var(--header_bg);
@@ -25,4 +25,37 @@
   color: #fff;
   font-size: 20px;
   margin-left: 5px;
+}
+
+.card-img {
+  border-radius: 5px;
+  height: 170px;
+  width: 130px;
+}
+
+.card {
+  padding-top: 40px;
+  padding-left: 40px;
+  display: flex;
+}
+
+.right-side{
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.card-link{
+  padding-left: 10px;
+}
+
+.card-location{
+  padding-left: 5px;
+}
+
+.card-description {
+  padding-top: 20px;
+}
+
+.card-date {
+  padding-top: 10px;
 }
